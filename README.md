@@ -6,4 +6,4 @@ Live link:- https://ashish-todotrello.netlify.app/
 
 ## working
 
-https://github.com/Ashish8449/todoTrello/blob/main/bandicam%202022-03-24%2010-00-45-187.mp4
+https://user-images.githubusercontent.com/76995716/159970837-697ae0b2-ccf2-4749-9426-c06a5e03dd8b.mp4
