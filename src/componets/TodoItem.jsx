@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import ListItem from "./ListItem";
 import "./TodoItem.css";
 import { useDrop } from "react-dnd";
@@ -22,9 +22,8 @@ export default function TodoItem(props) {
         isOver: !!monitor.isOver(),
       }),
     }),
-    [ctx.todo]
+    [ctx.todo, ctx.completed, ctx.progress]
   );
- 
 
   // this function will run when we drag items
   const additemTodo = (item) => {
