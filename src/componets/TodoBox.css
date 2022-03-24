@@ -1,0 +1,10 @@
+.todoBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+@media (max-width: 600px) {
+ .todoBox{
+     display: block;
+ }
+}

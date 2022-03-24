@@ -1,0 +1,33 @@
+.todoitemType {
+  padding: 17px;
+
+  border-radius: 8px;
+  background: #7852ff;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+ul {
+  min-height: 100px;
+
+  padding-bottom: 50px;
+}
+.todoitem {
+  width: calc(30% - 20px);
+  min-height: 250px;
+}
+@media (max-width: 600px) {
+  .todoitem {
+    width: calc(100% - 40px);
+    margin: auto;
+  }
+}
+@media (max-width: 450px) {
+  .todoitem {
+    width: calc(100% - 10px);
+    margin: auto;
+  }
+}
